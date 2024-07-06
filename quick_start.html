@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Vellum Documentation</title>
+    <title>Velum Documentation</title>
 
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -34,7 +34,9 @@
     <div class="page-wrapper">
       <section class="cards-section text-center">
         <div class="container">
-          <h2 class="title">Vellum 🐘</h2>
+          <h2 class="title">
+            <a href="index.html" class="text-decoration-none">Vellum 🐘</a>
+          </h2>
           <div class="intro">
             <p class="text-body-secondary fw-bold">Quick Start 🚀</p>
             <p>Creating a project from the composer and deploy on the server</p>
@@ -47,7 +49,33 @@
               </a>
             </div>
             <p>Or, you can start with the following commands</p>
-            <code><span class="text-warning">composer</span> create-project vellum/monolithic</code>
+            <code class="mb-3"
+              ><span class="text-warning">composer</span> create-project
+              velum/mnlt
+              <span class="text-danger">your-project-name</span></code
+            >
+            <p>
+              After creating the project, go to the directory and run the
+              command to install the dependencies
+            </p>
+            <code class="mb-3"
+              ><span class="text-warning">composer</span> update</code
+            >
+            <br />
+            <code
+              ><span class="text-warning">composer</span> dump-autoload -o</code
+            >
+          </div>
+
+
+          <div id="celebration">
+            <img
+              src="assets/images/celebration.svg"
+              class="img-fluid"
+              alt="People celebrating jumping"
+              style="max-width: 600px;"
+            />
+            
           </div>
         </div>
       </section>
